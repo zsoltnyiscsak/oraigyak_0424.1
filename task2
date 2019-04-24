@@ -1,0 +1,19 @@
+import random
+
+wheel = set(range(0,37))
+
+red = kerek.add(00)
+ls = []
+for i in kerek:
+    ls.append(i)
+red = {1,3,5,7,9,12,14,16,18,19,21,23,25,27,30,32,34,36}
+B = kerek-F
+S = set(range(0,19))
+G = set(range(19,37))
+
+n = random.choice(kerek)
+
+    if i in F:
+        if i in S:
+            if i%2 == 0:
+                print("Piros.")
