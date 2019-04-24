@@ -15,3 +15,8 @@ F = A ^ B
 print(F)
 G = A-B
 print(G)
+
+A.remove(3)
+A.add(10)
+for i in A:
+    print(i in B)
